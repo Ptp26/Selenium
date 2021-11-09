@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-05T11:40:25 EDT" name="Default suite" finished-at="2021-11-05T11:40:32 EDT" duration-ms="6821">
+    <groups>
+    </groups>
+    <test started-at="2021-11-05T11:40:25 EDT" name="Default test" finished-at="2021-11-05T11:40:32 EDT" duration-ms="6821">
+      <class name="SignUpPage">
+        <test-method signature="getTitle()[pri:1, instance:SignUpPage@4d5b6aac]" started-at="2021-11-05T11:40:25 EDT" name="getTitle" finished-at="2021-11-05T11:40:28 EDT" duration-ms="2598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method signature="getRegisterpage()[pri:2, instance:SignUpPage@4d5b6aac]" started-at="2021-11-05T11:40:28 EDT" name="getRegisterpage" finished-at="2021-11-05T11:40:32 EDT" duration-ms="4194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRegisterpage -->
+      </class> <!-- SignUpPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

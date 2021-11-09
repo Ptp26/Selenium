@@ -1,0 +1,33 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class SignUpPage {
+
+	@Test
+	public void getTitle() {
+		WebDriverManager.chromedriver().setup();
+		
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.ebay.com");
+		driver.manage().window().maximize();
+//		driver.findElement(By.xpath("//*[@id=\"gh-ug-flex\"]/a")).click();
+		String title = driver.getTitle();
+		System.out.println(title);
+		driver.close();
+		
+	}
+	
+	public void getRegisterpage() {
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.ebay.com");
+		driver.manage().window().maximize();
+		driver.findElement(By.xpath("//*[@id=\"gh-ug-flex\"]/a")).click();
+		driver.close();
+	}
+	
+}
